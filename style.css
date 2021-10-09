@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    align-items: center;
+    font-family: sans-serif;
+    margin: 2em;
+    padding: 2em;
+}
+ul{
+    font-size: 25px;
+    border: 5px solid black;
+    margin: 2em;
+    padding: 2em;
+    background-color: bisque;
+}
+ul li{
+    color:black;
+    margin-bottom: 2px;
+}
+ol{
+    margin: 1em;
+    
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.box-model{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 4px solid rgb(155, 77, 4);
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.box-model .margin{
+    background-color: white;
+    align-items: center;
+    width: 440px;
+    height: 440px;
+    margin: 20px 20px 20px 20px;
+}
+.box-model .margin .border{
+    background-color:black;
+    width: 420px;
+    height: 420px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.box-model .margin .border .padding{
+    background-color:yellow;
+    width: 380px;
+    height: 380px;
+    margin: 20px 20px 20px 20px;
+    align-items: center;
+}
+.box-model .margin .border .padding .content{
+    font-size: 30px;
+    color: blue;
+    padding: 80px 20px 50px 20px;
+    text-align: center;
+}
+.boxes{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: auto;
+    padding: 1em;
+    margin: 2em;
+}
+.box {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    border: 5px solid rgb(187, 9, 9);
+    background-color: whitesmoke;
+    padding: 1em;
+}
+.boxes .box li{
+    margin-top: 10px;
+    font-size: 20px;
+}
